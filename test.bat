@@ -2,7 +2,7 @@
 @echo off
 SETLOCAL
 
-if "%PROCESSOR_ARCHITECTURE%" == "AMD64" ( set _OSARCH=x64 ) else ( set _OSARCH=x84)
+set _OSARCH=x64
 echo %_OSARCH%
 
 
